@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/bootstrap-social.css">
 
 </head>
-<body>
+<body class="project">
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -26,11 +26,11 @@
 
 	  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 	    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav-tabs">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="./project.html">Project</a>
+	        <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Project</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="./blog.html">Blog</a>
@@ -65,19 +65,39 @@
         </ul>
       </div>
 	</nav>
-	<div class="container">
-	<div class="row intro">
-	    <div class="col-lg selfi">
-	      <img src="img/selfi.JPG" class="img-thumbnail selfimage" alt="Me" />
+
+	<h1 class="pTitle">Project</h1>
+
+	<div class="card-group pCard">
+	  <div class="card bg-light mb-3">
+	    <img class="card-img-top" src="img/Brogue.jpeg" alt="Card image cap">
+	    <h5 class="card-header">Tile-based Game</h5>
+	    <div class="card-body">
+	      <p class="card-text">A brogue-like tile-based game from scratch using Java.</p>
+	      <a href="https://github.com/ShinnyHu/CS61B/tree/master/proj2" class="btn btn-primary" target="_blank">Code</a>
 	    </div>
-	    <div class="col-lg text">
-	      <h1>Shinny Hu</h1>
-	      <p>Hi, I am Shinny, I have an undergraduate degree in Applied Mathematics and currently pursuing Master's Degree in Computer Science at Tufts University. I am passionate about creating and implementing brand new ideas. As of now, I am exploring the world of cryptography and cryptocurrency.</p>
+	  </div>
+	  <div class="card bg-light mb-3">
+	    <img class="card-img-top" src="img/tour.jpeg" alt="Card image cap">
+	    <h5 class="card-header">Touring Website</h5>
+	    <div class="card-body">
+	      <p class="card-text">My very first static website demo using bootstrap.</p>
+	      <a href="https://shinnyhu.com/tour/" class="btn btn-primary" target="_blank">Website</a>
 	    </div>
-	</div>
+	  </div>
+	  <div class="card bg-light mb-3">
+	    <img class="card-img-top" src="img/lenovo.jpeg" alt="Card image cap">
+	    <h5 class="card-header">Internship at Lenovo</h5>
+	    <div class="card-body">
+	      <p class="card-text">At Lenovo, I helped with HPC by applying Docker and TensorFlow. </p>
+	      <a href="https://solutions.lenovo.com/data-center-solutions/high-performance-computing/" class="btn btn-primary" target="_blank">Website</a>
+	    </div>
+	  </div>
 	</div>
 
+	<h4 class="temp">To be continued...</h4>
 
+	
 
 </body>
 </html>

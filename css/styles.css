@@ -1,0 +1,54 @@
+body {
+    background-color: #f2eafb;
+}
+
+.project{
+	background-color: #eaf2fb;
+}
+
+.blog{
+	background-color: #fbf2ea;
+}
+
+.selfi{
+  	margin-right: auto;
+  	margin-left: auto;
+  	text-align: center;
+}
+
+.pTitle{
+	text-align: center;
+	margin: 2%;
+}
+
+.selfimage{
+	max-width: 100%;
+}
+
+@media (min-width: 576px) {
+    .selfimage{
+		max-width: 70%;
+	}
+}
+
+.text{
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: left;
+}
+
+.intro{
+	margin-top: 10%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.pCard .card{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1%;	
+}
+
+.temp{
+	text-align: center;
+}
