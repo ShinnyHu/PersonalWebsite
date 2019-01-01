@@ -1,0 +1,176 @@
+.head-main {
+    background-image: url(images/head.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding-bottom: 600px;
+    color: azure;
+    margin-top: -30px;
+}
+.head-main h1{
+    margin-top: 150px;
+    font-size: 50px;
+}
+.lead {
+    font-size: 25px;
+    margin-top: 5px;
+}
+.head-btn {
+    margin-top: 50px;
+    background-color: rgb(94,138,190);
+}
+
+.body1 h5, .body4 h5, .body6 h5{
+   
+}
+.body2 {
+    font-family:serif;
+    font-size: 15px;
+    margin-top: 40px;
+    font-weight: 200;
+}
+.body2 i {
+    font-size: 30px;
+    color: rgb(94,138,190);
+}
+.light i{
+    color:rgb(254,181,69);
+}
+.body2 li h4 {
+    font-family:fantasy;
+    font-size: 23px;
+}
+.body3 {
+    background-color: rgb(254,181,69);
+    background-size: cover;
+}
+.body-img img{
+    width: 100%;
+    height: auto;
+    display: inline;
+    
+}
+.body3 text- {
+    float:left;
+}
+.temp {
+    margin-bottom: 90px;
+}
+.body3 h3{
+    color:aliceblue;
+    padding: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.body3 p {
+    color: aliceblue;
+    padding: 10px;
+    text-align: left;
+    line-height: 1.9;
+}
+.body3 button {
+    margin-top: 20px;
+}
+.body4 h3, .body6 h3, .body1 h3{
+    color: rgb(94,138,190);
+    margin-top: 120px;
+    border-bottom: solid rgb(254,181,69) 2px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+}
+.body4 h5, .body6 h5, .body1 h5 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.body1 h3 {
+    margin-top: 90px;
+}
+.body1 h5 {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.body5 img {
+    width:33%;
+    height: auto;
+}
+.body4 h5 {
+    margin-bottom: 25px;
+}
+.wb {
+    background-color: rgb(244,240,240);
+    border-radius: 9px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 0px;
+    line-height: 1.7;
+    box-shadow: 5px 5px 5px #888888;
+}
+.team img {
+    width: 45%;
+    margin-top: -15px;
+    margin-bottom: 90px;
+}
+.team p{
+    font-family:cursive;
+    color: rgb(82, 51, 83);
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: -72px;
+}
+.footer {
+    background-color: rgb(40, 58,67);
+    color: aliceblue;
+    font-weight: 200;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact i {
+    margin-left: -5px;
+    color: rgb(116,182,211);
+    font-size: 18px;
+}
+.contact p{
+    margin-left: -5px;
+    font-weight: 500;
+    
+}
+.footer h3 {
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.footer input{
+    background-color: rgb(30, 40,55);
+    border-width: 0px;
+    margin-top: 20px;
+    color:aliceblue;
+    font-weight: 100;
+    height: 30px;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.footer button {
+    height: 30px;
+    margin-top: 20px;
+    background-color: rgb(116,182,211);
+    color: aliceblue;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.right {
+    padding-bottom: 25px;
+    background-color:  rgb(30, 40,55);
+}
+.right p {
+    color: aliceblue;
+    font-family:serif;
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 200;
+}
+.right img {
+    width: 40%;
+    height: auto;
+    margin-top: 24px;
+}

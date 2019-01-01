@@ -10,6 +10,7 @@ func main() {
 	http.HandleFunc("/", index)
 	http.HandleFunc("/project.html", project)
 	http.HandleFunc("/blog.html", blog)
+	http.HandleFunc("/tour/", tour)
 
 	http.Handle("/img/", http.StripPrefix("/", http.FileServer(http.Dir("."))))
 	http.Handle("/css/", http.StripPrefix("/", http.FileServer(http.Dir("."))))
@@ -41,6 +42,14 @@ func project(w http.ResponseWriter, r *http.Request) {
 func blog(w http.ResponseWriter, r *http.Request) {
 	tpl := template.Must(template.ParseFiles("./template/blog.html"))
 	err := tpl.ExecuteTemplate(w, "blog.html", nil)
+	if err != nil {
+		log.Fatalln(err)
+	}
+}
+
+func tour(w http.ResponseWriter, r *http.Request) {
+	tpl := template.Must(template.ParseFiles("./tour/index.html"))
+	err := tpl.ExecuteTemplate(w, "index.html", nil)
 	if err != nil {
 		log.Fatalln(err)
 	}
